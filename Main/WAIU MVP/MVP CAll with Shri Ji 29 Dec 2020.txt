@@ -1,0 +1,10 @@
+User journey of transaction & payment
+Split payment (Offer) - future enhancement?
+Classify points to maintain point integrity and utilization boundaries
+TPP integration outside MVP?
+Gaming - not of great value independently
+App push notifications to be used from within the app - update slide to show that
+
+Inventory should be under a different heading
+
+Business value - ICE model (impact, complexity, effort) - Relative impact (Alok - Min 1, max 10), CE - Shri ji     
