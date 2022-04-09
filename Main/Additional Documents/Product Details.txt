@@ -1,0 +1,503 @@
+Cosmos Payment Process:
+	- Cosmos to share his privilege customer information with BS, including Debit Card Number
+	- Cosmos privilege customer to setup BS profile with Cosmos Debit Card Number
+	- BS to validate & setup Cosmos privilege customer with 10000 Rs worth Cosmos credit points
+	- Somehow we need to link Cosmos BS account credit with cosmos system for live credit point update - Need to check with Suhas Gokhale - API
+	- Whenever Cosmos privilege customer transacts, an entry will be made by BS. At EOD, BS to share all details with Cosmos via file exchange
+	- Update app credit points
+	- Cosmos to credit BS share by end of 5th day from transaction.
+	- BS to credit FL3 based on their pay plan i.e. weekly sunday. Cutoff for CBS payments to be based on when Cosmos will credit BS. No billdesk involved.
+	- How to reset CBS point balance back to normal - Need a trigger based on customer's payment closure.??????
+
+Self-Purchase: Food + Booze
+	- Purchase points via payment gateway & credit into points wallet
+	- Pay for food/drink via wallet
+	- Customer point wallet to be debited by 100% of the purchase value and BS will cashback 10-12% based on customer, immediately after sale.
+	- FL3 wallet will be credited by the points of sale
+	- FL3 to collate all points frpm Sat-Fri cycle and to be settled on Sunday for 82%
+	- BS to hold on to 6-8% of the original purchase value. This is including payment gateway cost e.g. 2%.
+
+
+Billing:
+	- FL3 to show final bill showing per item Rs value, points value, after GST value and total cost
+	- To Be Decided
+	- 
+
+Sharing / Gifting: Booze only to known people via phone number : No cashback on tranfering points
+	- Purchase points via payment gateway including GST & credit into points wallet
+	- Share points with help of phone number to known acquiantance
+	- Sender to select receiver and transfer points. There should be a gift a drink page, allowing customers to choose the right drink & volume.
+	- Sender's point wallet to be debited by transfer value.,
+	- Receiver point wallet to be credited with 90% of the shared value. Remaining 10% shared value is service charge of BS.
+	- Receiver to use point wallet to buy a drink and gets 10-12% cashback. 
+	- FL3 wallet will be credited by the total points of sale.
+	- FL3 to accumulate all points during Sat-Fri cycle and to be settled on Sunday @ 82%
+	- BS to hold on to 6-8% of the original purchase value. This is including payment gateway cost e.g. 2-3%.
+
+Gift a drink page:
+	- Show standardized costs for all possible drinks types (not actual drink brands) to choose from e.g. beer pint, half pint, whiskey single, double etc.
+	- Standardized price of those drinks to be able to transfer
+	- Option to transfer & then select a contact or avatar/username
+	- Summary that each location & resto value their drink differently based on their offerings, but these are referential costs that has been carefully cured 	  	  based on the choices & prices across India. For specific costs, feel free to browse specific resto menu blah blah blah
+	- Also say it never harms to transfer a little extra if your offer encourages your acquaintance to go to a premium establishement and they can always choose to 	  have any drink of their choce as long as you have credit points to them. And they will have 2 months to decide or accumulate.
+
+Booze Offer:
+	- Purchase points via payment gateway including GST & credit into points wallet
+	- At FL3 establishment, check-in to FL3 in app, using FL3 supplied token via screen or asking FL3's own app.
+	- Look for the gaming events & times on app, FL3 screen, table card etc and enroll into the game. Other present guests in the estt will join too. The could be 		  a limit of number of pople who can join one instance of a game and may need to open several instances to accomodate all guests.
+	- Once game enrollment is complete, basic profile of all players (sex, member ID, interests, hobbies, profession, about) will be visible to other players.
+	- Once game is finished (10-12 Mins), open option to offer booze to all other players of the game.
+	- Offerer to be able to offer booze to multiple players from their game. Receiver to accept the offer which will send a confirmation request back to offerer.
+	- Offerer to confirm acceptance as per his/her choice. Once confirmed 2x drink points to be debited from his/her wallet and 1x points to be credited to 	  	  receiver's wallet.
+	- Once exchange is complete, chat option will be opened between offerer & receiver.
+	- Chat will have end-chat & block options. Chat to remain active for next 24 hours and countdown to show up on each chat window.
+	- Add profanity check & warning too. After 3 warning disable the account for 2 weeks.
+	- Pay FL3 40% immediately & retail the rest
+	- Receiver can use the credited 1x points at any FL3, same as Purchase Module
+
+
+	Check-in: FL3 module & screen to be in sync to display:
+		- All FL3  module to have feature of random key generator that is refreshed every 4 hours, to be used by FL4 to check-in
+		- FL4 to come to FL3 establishment, find FL3 on the app, and click on check-ipn option
+		- Once clicked, app will prmpt for the random key of FL3 which will be displayed on FL3 screen of FL3's module
+		- Once checked in, gaming option with timing will become visible to checked in members
+		- FL4 can enroll for the game ahead of time and enrolled members can see other enrolled members, for that instance of the game
+		- If random key is close to expiration, send prompt to enter the next key to continue the session
+		- If the key is not entered, let the ongoing game continue but stop showing next games.
+		- Also once offer cycle is complete, active chats to continue to remain active for validity period of rolling 24 hours, regardless of being checked-in 			  or not so do not end chat after the checkout.
+		- Also provide a checkout option, in case customer wants to move to a different FL3 (or do not want the prompts)
+	 
+
+	- Chat: To be opened once offer service lifecycle is complete and will be active for 24 hours from the point of initiation. 
+		- Open phone number sharing after explicit alignment with customer ONLY
+		- Either party can end it or block the other user anytime during the chat
+		- Add profanity, KYC & any other similar checks - Sanctions?
+		- Check FL4 module????
+
+	- Gaming (mobile app only): To be scheduled at a standard times across all FL3 @ 1900, 1930, 2000, 2100
+		- BS to control the games to be broadcasted across location
+		- Games will be varying every day, therefore need a pool of about 40 games
+		- Allow to choose gaming Avatar & name
+
+	- On Demand Games(mobile app only): To be scheduled upon request from FL3 (& their customers)
+		- Weekend afternoon gala - Group games, couple games, kitty parties, costume party, 
+		- Can enable games on demand for FL3's own events as well - Games on demand - screen dependent
+		- For on demand requestors allow gaming from home as well
+
+
+
+Gaming:
+	- Stag games - Quiz, 
+	- Couple games - Indulgence
+	- Group games - Pub quiz with varying queries, treasure hunt
+	- Insource games???
+	- 10 games to be thought? ludo?
+
+Whatson:
+	- Display BS promoted events - e.g. corporate tie up events
+	- Dislpay FL3 promoted events
+	- Offers (value added service for free to FL3), 
+	- Featured events (Paid)
+	- Top 5/10 upcoming events
+	- 2k per event costing
+	- Show local restaurants based on pincodes near the customer's area - Maybe add/subtract 100 to the PINCODE and show all those FL3s
+	- Featured FL3 to be on top of the lists with tag as featured
+	- option to sort - refer doordash
+	- Separate local & national whatson - Need music notication need to go to all music lovers & even all FL3s
+
+
+Virtual card (MVP): With or Without physical device interaction needs
+	- Personalized virtual card for all customers (or just BPC) ? Select Avatar, fancy name and picture or logo of choice over the card - Somehow make it unique  		  e.g using small QR or member ID etc.
+	- Shortcut to pick selective options like buy points, offer, checkin, whatson, account
+	- Maybe make payment by using it as a reader and read restos QR code from resto's app on FL3's mobile
+	- FL3's app should be able to find the member based on the QR scan, check points credit balance & accept payment if enough available. Reject if not & flag
+	- Must use fingerprint somehow to tie it all up. If fingerprint fails then passcode (fraud potential here?)
+	- Possibly restrict initially to low value payments only to prevent fraud?
+	- Upon wrong finger opening - just show basics. Upon finger scan completion, show wallet points and any other details
+	- 
+
+EMI / Loyalty Points Payment Process bank's provelege customer BPC:
+	- Bank to share all BPC information with BS, including Debit Card Number, on daily EOD. This will be needed to refresh BPC point balances too, if a 	  	  	  corresponding payment is collected from BPC by the bank.
+	- BPC to be maintained on BS profile with bank specific Debit Card Number
+	- Validate bank card number using bank's API & await validation
+	- If all OK, setup BPC with 10000 Rs (or as agreed) worth bank credit points & then allow any other cards to be added as well
+	- Somehow we need to link BS account credit with bank system for live credit point updates - Need to check with yadav
+	- After availaing services, BPC to present virtual card to FL3 make point transfer to to FL3
+	- FL3 to either scan it or just validate receipt, based in Plan A or B, as above
+	- Once transaction is complete, update BPC wallet, FL3 wallet, sent prompt to bank and also add a flag in BS
+	- Instantly update credit points status (maybe even lock the credit balance from use until updated) in BS & BPC systems & send a notification. Once updated, 		  maybe await confirmation from bank before unblocking the credit points for usage? Or maybe unblock after 5 minutes anyway, with updated point balance.
+	- The new balance should be available to use instantly. No cashback on EMI transactions.
+	- Bank to credit BS share by end of 3rd day from transaction, even if the collection from BPC is pending their recovery cycle. Bank to make BPC collections 	  	  based on their own pay cycle arrangement.
+	- BS to credit FL3 based on their own pay plan i.e. weekly sunday. Cutoff for Bank-BS payments to be based on when bank will credit BS, normally by the 3rd day 	  of the transaction or maybe at a set cycle. No billdesk involvement.
+	- How to reset BPC point balance back to normal - This should be part of the daily updates we need to receive from the bank and a prompt should go back once 		  updated. Any exceptions need to be reported to bank for needed corrections. This is where ticket may be needed for B&C check failure.
+
+
+
+Screen:
+	- 55 Inch screen with media card & hanging unit, warranty support etc.
+	- To be synched with wifi with BS FL3 module and backup connection on LAN
+	- To display BS ads
+	- To be used for gaming announcements & related displays
+	- FL3 event promotion, specialities & offers
+	- Possible external ads e.g RuPay, Bank, as needed & agreed
+	- 2 hour daily slot for corporate tie up ads
+
+Boradcast:
+	1. FL4 to FL4 live stream - From Anywhere, not to be restricted in a FL3 - No cost
+	2. FL3 to FL4 live stream - FL3 arranged events to his specific location & to its past customers -   
+	3. FL3 to FL4 live stream - For all partner (or subscribed) merchants to be broadcasted nationally (costing?)
+	4. External Events to FL3 - To be displayed on screen with sound 
+	5. External Events to FL4 - From anywhere based on choices & interest e.g. Marathi, Music, Live concerts
+	6. Possibly FL4 to FL3 e.g. marriage events
+	
+Costing?
+Camera? Guidance to buy which kind of camera along with audio system. How to connect it to live stream?????? & whether to keep or not in MVP?
+Recording? Add scroller to show infringement but allow copying & sharing.
+Should we take live feedback from live customer to drive the kind of songs they should sing?
+
+Separate local & national whatson
+
+Live streaming : By FL3
+	- For any events happening at FL3 estabishment e.g. live band, games, singers, FL3 should have access to live stream that events to its remote customers
+	- Advance promotions should be published to let users register for online or physical attendance. Charge seed money for physical attendance and on-demand for 	  	  online customers.
+	- Need to finalize how we need to charge user and if so, on what basis e.g. videos watched, period, per event, Fl3 subscription, all of these etc.
+	- As subscribed, FL4 to view the live events during the live play only. Play quality dependent on FL4's internet service, so maybe run a background check to 		  tell FL4 their bandwidth and prompt if it's low. This would avoid concerns about bad impression of the app itself. Same for FL3.
+	- For personal events like bday party or similar, can FL3 stream?
+	- What can go wrong here??????
+
+
+Live streaming : By FL4
+	- For private events like bday party, anniversary cake cutting or similar, FL4 to make specific request to FL3
+	- FL3 to approve the streaming request for a set period e.g. 4 hours after providing approval. FL3 should have an option to cancel streaming if FL4 is making 		  inappropriate video & raise a ticket.
+	- Live streaming agreement should explicitely say either FL3 or FL4 can cancel the streaming for all or specific users, if inappropriate content is being 	  	  shared.
+	- Once approved, FL4 should be able to do live video streaming without showing any other sensitive FL3 information or other customers in the video. FL4 should 		  be able to publish this stream to selective customers only, based on selection by known phone numbers.
+	- A notification should go to each receiver FL4 customer on their BS app zoom
+	- Receiver FL4 should be able to simply accept the live stream request & view it without recording. For recording, they may try to use a different phone to 		  record, which we should try & discourage or prohibit under proprietary & copyright infringement law. If something wrong happens and the video ends up on 	  	  youtube, there could be a legal risk.
+	- Publishing FL4 should be able to end the live stream as & when needed and for selective viewers too. Viewing FL4 should also be able to end streaming when 	  	  ready.
+	- The streaming mobile should be able to use front or back camera.
+	- Can there be a situation where FL4 needs to do stream to general public?  E.g when he isnt able to find the phone number ?
+
+
+Delivery: FL4
+	- Delivery module to be exclusively available on the FL3 & FL4 app
+	- Customer to go into delivery section and see all restaurants that are ready to order. The information should show name, menu type, offers, rating, V/NV
+	- Chen clicked, show if oper for delivery, top/best items, expected delivery time to customer location
+	- See all menu items with cost & photo with option to add to cart and categorized by type e.g. starter, snacks, dessert etc
+	- Provide option to select by category to jump to specific section e.g. drinks or dessert
+	- Show best combination based on selection (as provided by FL3)
+	- Show total costs including everything and show highlighted discount, if any
+	- options for promo code, contactless delivery, leave at door or main gate, cutlery, customize etc.
+	- Show final bill and take payment in points or money?
+	- Show order confirmation once payment is done. Then confirmation by FL3 should show up too, to show order is being prepared, to start the delivery clock.
+	- Update wallet balance immediately with usual notifications
+	- app-popup notification on each stage of delivery, not sms
+	- Show delivery tracking too and ask to rate delivery quality & food quality separately, when delivery is complete
+	- Save delivery information in orders page for 3 months. On clicking order summary, show basic order details like datetime, content, card used, any photos you 	  	  clicked etc.
+	- Customer should have option to shortlist any restos that they like and be able to repeat order
+	- Customer should be able to search for a particular item based on multiple popular names of same dish e.g. malai paneer, malai panir, malaai paneer etc.
+	- Find a way to store patterns in their orders and show restos sorted based on these preferences
+	- There should be an option to receive messages directly from resto, in case order is delayed, stuck, cancelled etc. Based on this, a refund option needs to be 	  opened up.?????? Or any other options like doordash
+	- Possible group order function??
+	
+
+Delivery Restos:
+	- Restos should be able to turn delivery on/off and must honor their active orders. If delayed, there should be an option to let the customer know.
+	- Restos should have option to choose dish name and only in case of bespoke name should have a need to provide name of the dish. BS must approve the name.
+	- Along with name, its cost, discount (calc final cost), dish of the day/bestseller/speciality/extended prep time/New/hot/spicy/eggless/veg-nveg-egg/out of 		  stock tags (max 5), custom description must be provided. If out of stock, grey out from ordering menu.
+	- Delete option must be there to remove from menu permanently and maintain a deleed items log. Ask for reason to remove.
+	- Option to automate start/pause/end based on the day, holiday etc, so that orders are received only during active periods. Option to alter the timing on 
+	  ad-hoc should also be provided e.g. closed on dry day or monday afternoons etc. Possibly give calendar functions too.
+	- Start and end date to be selected when publishing the finalized menu. Start date might usually be contract start date and default end date 31-Dec-9999. The 		  end date to be updated when resto leaves the contract. This might be handy also for exclusivity agreement.
+	- Upon receipt of order, show a prompt to FL3 app and allow option to accept order. Fl3 to check the kitchen status and accept the order. Acceptance prompt 	  	  goes to the customer too.
+	- Once order is ready, courier to pick it & change status to picked. Once picked, map tracking should follow. Once courier is at destination-sh, change status 	  	  to reached and open option to call the customer? Or maybe just message their arrival for customer to call. Somehow try not to share the phone number but no  		  worries if we cant achieve that in MVP.
+	- Once order is delivered, change status to delivered and let courier rate the customer. Similarly customer to rate food & delivery speed, packaging, quality 	  	  etc. This is important for our SOP guidance.
+	- Possibly support group order?
+	- Does map tracking needs to be in app or can simply be passed to google maps?
+	- Option to stop prompts of the order requests - for owners etc. so that only 
+
+General on Delivery:
+	- SOP to be defined
+	- Delivery packaging aspect to be clarified & decided - likely cost impact
+	- Always have picture
+	- Always have ingredients
+	- To always give something else with it?????? Dependent on resto
+	- Think about how to achieve packaging for the BS reso delieries - its very important for promo to both FL3 & FL4
+
+Drink menu for FL3: To show their collections
+	- Restos should have option to choose drink name and only in case of bespoke name should have a need to provide name of drink. BS must approve the name.
+	- FL3 to add name, its cost, volume(s), type, bottle & packaging photo, discount, final cost, drink of the day/bestseller/speciality/New/out of stock tags (max 	  3), custom description must be provided. If out of stock, grey out from ordering menu. Maybe show per liter cost too?
+	- Delete option must be there to remove from menu permanently and maintain a deleted items log. Ask for reason to remove
+	- Maybe also show description of the drink when clicked. FOr in-house drink, the description needs to be created by FL3 & approved by BS admin.
+	
+FL3 Events: BS sponsored
+	- Dedicated page for all FL3s to choose from a variety of event packages and referentual costs, so that BS isnt bombed with random unsure or curious queries.
+	- FL3 to choose from the packages based in the knowledge of their customer. Or for sheer experimentation.
+	- FL3 to provide basic details like available facilities, indoor/outdoor space, time, day, period, prospective customer count, wifi, power type, expense limit.
+	- BS to revert back with a range of offers via email, phone etc and work out the finer details. Including anonymous info on artists e.g. 7 years experience in 		  singing, 5 instrument band etc. Maybe a sample of past performance of the artists too, without revealing personal information.
+	- FL3 to finalize, transfer non-refundable seed money (x% or somehow, points or money) to confirm a specific offering. Maybe for regular requestors, this seed 		  money to be waived off but then how will we earn or support the artist app? Somehow charge per customer?
+	- Offer artists alterntives to FL3 after seed money is paid and maybe even promote less demanded artist for lower cost, in case the other one is high in 		  demand.
+	- BS to arrange for the service, somehow pay advance to artists (50%) and rest after the event and possibly patch the 2 parties to work together.
+	- Define BS's role, once the parties are patched together and exclusivity arrangement for 18 months from the latest performance. If arrangement is broken, levy 	  35% fees for such an event to both parties. or something like that. Possibly ban the artist for 1 year from BS as otherwise it will give weak reputation.
+	WHAT IS BS ADMIN SCREWS UP AND PATCHES ARTIST & FL3 FOR A FEE??
+	- Advertise to FL4 as well & charge online streamning customer to share the earnings with FL3. Share 67:33 for online users. WHO WILL BE RESPONSIBLE FOR MAKING 	  THE VIDEO IN GOOD QUALITY FOR STREAMING? HAS TO BE FL3 SO GIVE THEM 33%
+	- Maybe take online customer request of songs too?
+
+FL3 Events: Their own sponsored
+	- FL3 to provide all details like artists, facilities, indoor/outdoor space, time, day, period, prospective customer count, seating capacity, wifi, power type, 	  etc. for BS to promote, whether to archive or not.
+	- BS to revert back with a range of offers via email, phone etc and work out the finer details.
+	- FL3 to finalize, transfer non-refundable seed money (x% or somehow, points or money) to confirm a specific offering e.g. location, period of promotion, 		  featured promo to show it on top of other offers. Also charge per online customer too, for streaming media service.
+	- BS to put it up on whatson and take registrations & streaming requests. Seed cost for physical attendance registrations. Share this fees with Fl3 as 75:25.
+	- For online streaming viewers, share 50:50 wth FL3. Figure this out based on streaming operation costs.
+	- FL3 should be responsible for streaming the video & BS to store it for quality check. If there are complaints from users, we might need to consider refund 	  	  from FL3 to cover BS and FL4 costs.
+	- MUST TAKE ONLINE VIEWER REVIEW OF THE EVENT TO ASCERTAIN SOME ODD CUSTOMERS ARENT JUST TRYING TO GET THE MONEY BACK BY COMPLAINING FALSELY. This is where BS 	  	  storage of the event will help validation.
+	
+BS artist collections:
+	- Need a sister app to collect info on artists, their expertise, costing, calendar, sample work etc.
+	- This will needed to be offerred to FL3 for BS sponsored events
+	- Sell the DB to someone in need or provide disrect access to paying customers
+
+Recommendation / Pop-up:
+ 	- local events - every day until open
+	- New FL3s or new dish/drink at FL3
+	- Transactions lifecycle milestone status
+	- Delivery milestone status
+	- Points movement status
+	- Friend's prompt's
+	- Gaming status changes
+	- Expiring points
+
+Ticketing: 
+	- Upon request from customer
+	- 
+
+Corporate tie-ups:
+ 	- Including l'oreal
+	- Cocktail parties, townhall, client meetings
+	- Corporate delivery options
+ 
+Search FL3:
+
+Rating:
+	- Self
+	- Other FL3
+	- Other FL4
+
+Payment gateway:
+	- Use RuPay as primary
+	- Billdesk
+	- CCAvenue
+	- Many others?
+
+Email: Same as in-app popups
+	- Define events for both FL4 & FL3 & Admin
+	- Delivery
+
+Wallet service:
+	- FL3:
+	- FL4:
+
+Admin payment:
+	- Collect from FL4:
+	- Pay to FL3
+
+Admin module:
+	- Approval
+	- KYC check
+	- ?
+
+Privacy:
+
+Security:
+
+
+
+BananaIP:
+	- Corporate filing 4 times costly as compared to individual filing
+	- 30k for global search - as patents are filed globally
+	- 1L for provisional filing
+	- Permanent filing of working model after 1 year final filing
+
+
+Cosmos/Partner bank: Credit scheme (Afterpay)
+	- For partner bank customer, all boozeshare services can be availed on credit, upto a limit of 10k.
+	- Boozeshare will provide the transaction information to Cosmos 
+	- BS to share FL3 pay plan with Cosmos
+	- 
+
+Qs for bank:
+Do the have API to validate CM#?
+Do they have a certified vendor?
+Can they share their infra for us to use?
+Refund if delivery is delayed, canx etc?
+Screen capture video for FL3 module of zomato, swiggy - Rajesh??
+Any boozeshare wide promo option to be provided e.g. 20% off upto Rs 300 on Amex credit card etc? Same question for delivery?
+Chatting option always open between known people? This is useful to ack any gifts. And show prmpts on the sender's key dates to receiver, so that receiver can return the favor on an important day for sender. What is someone tries a randon number? might get lucky!
+Onboarding steps for 24k on zomato etc?
+
+
+Qs:
+Read the product detail doc?
+Sample logos?
+
+Games winner to be given one free drink - One person can win once a day only but can play all the games - Max send 600 per night - 8pm to 9:30PM is peak hour, lunch 12:30 to 2PM - Prize drink only on Mon, Tue, Wed, Thr - Rs1500
+Maybe open chat for share, gift customers too? Yes
+Costing for live stream? Free upto some extent then paid
+Delivery charges in points too? more discussion needed 
+How to make new signups completely online? What kind of fraud can be expected?
+Happy meal? Upselling
+Combined cash & point based servicing?
+
+Kotak Mahindra
+
+1 Rs = 2 points
+
+1000 = 2000
+
+Rs 820
+
+
+
+
+
+Restaurant chains - target first
+Device to device app interaction
+Delivery tracking software cost? Maintenance?
+Rahul - Dev vendors
+Raju  - Gaming dynamics
+Advert - Point based payment - Har ek cheez paise se nahi khareeedi jaati. OR - Har ek cheez khareedne ke liye paisa hona zaroori nahi hai.
+Delivery tagline - Ab khaane ke saath khusiyan bhi !!!
+Emotional angle for sales
+Afterpay concept introduction - Need NBFC member to register as a CIBIL member
+Cosmos/partner bank module - Bank to pay for it
+Printer, monitor & tennis net
+NON-COMPETITION CLAUSE AT AMEX??????
+Would our bank make payment & collection 24x7?
+Booze share - 
+Search using phone number will be allowed to show name of the user, to be able to share booze
+what else to add as interactive elemts along with games to engage more guests?? 
+Define selective games on each day of the week based on customer profiling (e.g. singles on Mon, Family on Wed, Tharki on Fri, Sunday couples)
+Analytics module
+
+Top 10:
+The problem
+Company Vision & Mission >>
+Opportunity & Size - Done
+Unique features - The product -  Purchase, sharing/gifting, offerings, EMI, whatson, payment gateway & point wallet, delivery, live streaming
+Marketing and sales strategy >>
+Financials - sales & expenses
+Competition
+Investments
+Partnerships 
+Market research
+Interesting story about the idea's origin >>
+SWOT
+
+January 9, 2020
+Even the most celebrated restaurants in India struggle with profitability
+https://qz.com/india/1782006/indias-top-restaurants-like-olive-comorin-struggle-with-profits/
+
+April 15, 2020, 18:10 IST
+https://cio.economictimes.indiatimes.com/news/corporate-news/the-indian-restaurant-industry-will-never-be-the-same/75157663
+Most restaurants in India and around the world work on slim 10%-15% EBITDA margins with hardly three weeks of cash flow
+This industry contributes around 3% to the GDP of India and is its single largest employer with more than 73 lakhs people on its payrolls
+For instance, in China where average dining out instances is 28 per month, Dominos is operating at 30% of its pre-COVID business even after the situation is back to normal. In India with just 4.1 average dining out per month, the impact is likely to be as bad if not worse. Besides diner’s concerns around health & sanitation, the economic slowdown will also hamper consumer spending in the short term.
+ With popular restaurants likely to be operating at 50 percent or less of total capacity to ensure social distancing, apps that offer diners online reservation and pre-ordering and wait list management that help minimize table turn-times, further shortening the queue of people waiting to be served will prove to be critical
+
+Aug 2016
+https://economictimes.indiatimes.com/industry/cons-products/food/restaurants-are-operating-in-an-increasingly-tough-environment/articleshow/53788412.cms?from=mdr
+Rentals have doubled
+Oversupply of poorly run restos 
+Lot of money thrown on bad ideas
+Brand longeviy is down to 18 months as entrepreneurs struggle to maintain fickle customers
+Commercial kitched are burying traditional restaurants on social media
+Growtn pattern is 10% i.e. 5L CR in 2021 - This growth, fuelled by a young and upwardly mobile middle class ostensibly hungry for new eating-out adventures, is the stuff most restaurateuring dreams are made of.
+Average eat out of Indians
+Resto relevance has come down from 15 years of early 2000 to now 4-5 years, therefore market churn will help us. So would continuity
+
+how to increase life of a resto:
+1- Innovation
+
+We should also show 10 year plan with market strategy based
+anniversary promo free - celebrity
+dineout frequency 4.1
+casual dining segment is growing
+Increasing disposable income for Indians
+44% of india poulation is in age range of 21-50 years
+Fast food churn is more than fine dining
+
+
+https://aaronallen.com/blog/india-restaurant-market-growth
+
+India is also one of the largest consumer markets globally, and one of the youngest with more than 45% of the population under 25 years old. For teens and young adults, eating out is a popular form of socializing, contributing to the growth of multiple segments within the expanding market.
+
+According to data from the Economist Intelligence Unit, personal disposable income should grow about 10.5% annually through 2020.
+
+India’s traditional close-knit extended families are less common; as younger family members move away for education and jobs, they are setting up smaller households, making dining out more attractive. More women are joining the workforce as well, especially in urban areas, leaving less time for home cooking and creating more demand for dining out/takeout options.
+
+In India, full-service restaurants command the largest market share, at 57% of sales. The next biggest category is QSR, at about 16%.
+
+As international, national, and regional players move into the market the momentum is shifting toward more chain-affiliated and standardized operations. A value-seeking mentality (to be expected, with median household income around USD 4,000 in 2015), marketing, greater mobility, and social media will all fuel more demand for QSRs.
+
+Geographically, the prime opportunities are in the urban centers, where higher wages are attracting more Indians. By 2020, it’s estimated that 36% of India’s population will be urban dwellers, up from 32% currently.
+
+http://ficci.in/spdocument/23056/foodzania-release2018.pdf
+
+ The country’s robust economic growth and rising household incomes are
+expected to increase consumer spending to US$3.6 trillion by 2020, with the maximum consumer spend likely
+to occur in the food, household and transport and communication segments. India’s share of global
+consumption is also forecast to increase to more than twice its current levels by 2020. Over the next five years,
+India’s retail market is expected to reach US$1 trillion. The e-commerce market is expected to reach US$125
+billion in terms of gross merchandise value (GMV), growing at the rate of 31%, and it is estimated that the food
+service industry will grow at a pace of 10.8% and cross the US$161 billion mark by 2020.1
+
+With rising incomes, the propensity to spend is now expanding beyond metros to Tier II and Tier III cities, which
+are turning into new demand centres. However, the products, price points and consumption experience
+expectations of these consumers are very different from those of consumers in metros. The model of serving
+consumer demand that works in metros may not work in Tier II and Tier III cities.
+
+Internet & smart phone penetration in india
+
+ As such, most business managers have not
+proactively devoted time to developing even a basic appreciation of how emerging technology can solve some
+of their customers’ problems. That is set to change. With the market cap of new age companies having
+surpassed that of several large traditional players, technology’s new role is now being acknowledged. It is a
+disruptive force that can pivot business models to serve customers in a manner unthinkable before. From
+mobile usage to internet of things to artificial intelligence, technology is causing major changes in how
+consumers order their food.
+
+ Demand for processed /convenience food is constantly increasing. 
+
+The performance of the foodservice industry is forecast to accelerate, with an anticipated CAGR of 10% for
+the five-year period 2017–2022. This is expected to drive the industry to a value of INR 5,52,000 crore by the
+end of 2022.
+
+Trend #1: Ethnic cuisine will increasingly be present in organised and hygienic set-ups
+Trend #2: Food tech will continue to ‘organise the unorganised’, driving increased focus on consumers, food innovation and efficiency
+Trend #3: Restaurants will increasingly focus on consumer engagement using technology
+Trend #4: Health and wellness will continue to ride high on consumer preferences
+Trend #5: Traditional packaging will make way for innovative food packaging
+
+Interesting fact slide
+5L restos
+Average returns for VC
+Average partnership 
+Closure of business in 18 months
+
+VC deck:
+Problem area
+proposed solution
+key features
+roadmap & planning
+Finances
+VC expectations
+Q/A
+
+Call 17 July:
+
+
+Open ended Qs:
+	- How to prevent FL3 from manipulating online costs to be higher than menu cost?
+	- How to tackle resistance towards use of points by customers?
+	- How to manage daily feed fin/non-fin data exchange between bank & BS?
+	- Finalize Abhishek's billing?
+	

@@ -1,0 +1,55 @@
+can we cancel order?
+how many psp are there?
+Digi marketing - used to generate the sitemap & some advances SEO feature, all pages of the site will have a page of its own.
+Add search engine keywords
+when setting up product, can we include discounts too, to show on final menu page too?
+How about promo codes - these can be cracked or hacked
+
+CRM - can add leads, have role based auth too, email broadcast tool
+CRM will help manage promo templates? Merchant payables/receivable mgmt?
+Status?
+Manage staff tool is there
+
+Security - 
+
+Queries for EQtribe:
+
+1. Application level security & data security, as SSL supports data exchange only. What type of security tech needs to secure the DB. Including APIs which should be encrypted. Request a list of all security features possible.
+
+2. Payment wallet enablements & additional PSPs inclduing UPI, RuPay
+
+3. Live streaming & gaming with hardware integration
+
+4. Performance management - 1MN daily
+
+5. Testing strategy - 
+
+6. Hybrid performance issues - 
+
+7. 3rd party integration - 
+
+8. List of limitations in ionic -
+
+9. Future uplift concerns - 
+
+10. Demo some of the mobile apps -
+
+11. Pricing model -
+
+12. Trainings for their employee & ours for handover - 
+
+13. SEO management - 
+
+Documentation – BRD & FRD (including wireframes), user manual, config manual – Probably markdown
+Performance char for the app how many requests how many apps running etc.
+Testing what kind, functional, performance, load, security – should have all cases included
+Risk & mitigations around any limitations they have e.g. downtime, env factors
+What tech they will use for FE & BE, what exactly in hybrid – anything else apart from DB they will be implementing
+3rd party tool integration – key concern for hybrid as it doesn’t support everything – any live examples?
+List of limitations of ionic framework – Kone(y) is also on hybrid & isn’t able to diff between camera & gallery & throws all option open instead of directly opening the camera
+Automated sms or popups?
+EQ platform – what about future uplifts of the software?
+What about the app dev in ios/android
+
+Infosoft Digital Design Services - Niteen (manisar LED mfg plant), Keshav (Delhi)
+

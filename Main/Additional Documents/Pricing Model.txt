@@ -1,0 +1,70 @@
+FL4: Pricing structure
+
+1. Download - Free
+2. Initial registration - Free
+3. KYC check - Free (Expense 21 Rs) - For failed checks need to add validation, confirmation, cannot be changed without making payment of Rs50.
+4. Sharing - (Apply service charge of 10% + GST 18% ?? - Note: 10% of SC goes to govt) 
+	- No initial credits/deposit - Minimum deposit of 500 to restrict resistance towards paying too much initial amount for FL4 to use app 
+	- App will charge the FL3 5% (?? TBC) of the app based sale as we are increasing frequency of FL4 visit to FL3.
+5. Purchase expiration (Read Expiry Algorithm below) & extension - On extention change money or reduce cost
+
+Think about tab & afterpay
+
+5.1: No service tax on buying drink for self
+
+6. Sharing - "No transfer fee" - Reciever validity to match sender's expiration initially.
+Point reduction every time after initial transfer
+Penalty for delay/cascaded transfer - 5-10% (same as sharing) plus another 5%
+
+5. Offering - ($$ 65% ??) - display (Rs 10k expense) but charge setup cost e.g. $$ Rs 15k.
+	- Charge 100% extra due to the premium service to offer
+	- Highlight offer point specifically for payment, reimbursement
+	- how to make FL4 redeem offer points in the same FL3? Or should be able to redeem anywhere?
+	- Refund: not possible as payment will be done after the service
+	- offer points:
+		- Offer point should cost the sender double but be credited as single drink to receiver
+		- Offering FL3 should get some immediate benefit of the offers made in his establishment
+		- Then offer points can be redemeed anywhere and share 20% its benefit with redemeeing FL3
+		- offer points to have same validity as same sharing point??
+
+FL3: Pricing structure
+
+
+Restaurant Costing: 70% sale if from food
+Material cost 50%
+Tax 	7%
+Admin 	7%
+Light 	3%
+Salary 	4%
+Total:	71%
+
+To be added to deck:
+1. Cloud kitchen (Zomato/Swiggy) arent part of selection criteria but are in scope for future delivery expansion.
+ficci report to rd
+- Sheet & detail list to RD
+- Billdesk email
+- bananip email
+
+Chetan Oswal's consultancy
+Revenue model - remove notes and put expense
+
+
+Pune
+Mumbai
+Delhi
+Bangalore
+Hyderabad
+Goa
+Chennai
+Kolkata
+Indore
+Kerala
+
+QQ:
+Why our customer should insist to pay through boozeshare?????? instead of FL3 taking offline payment
+Define periodic/anniversary bonus strategy so that FL4 is encouraged to maximize use of BS points instead of paying offline cash to FL3
+Engagement team to promote the brand/cult by conducting various events (launch, food tasting, wine/beer tasting, octoberfst, Movember)
+Referral logic
+Analytics based endorsement & rewards, promotions
+New customer channel using existing customers?
+Offer drink based on online pub quiz

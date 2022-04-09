@@ -1,0 +1,81 @@
+To-Do:
+Check In:
+
+
+
+X. Whats On! (or BoozeShare?)
+See top 10 offers & features & on selection, which will take to FL3 page 4.1.1
+Show last played game & opponents, result (& maybe option to go to another page to show last 10 games??)
+Show last 10 events attended? (@@ Event attendance flag for FL3)
+>> 1) Search for a FL3 (4.1)
+
+
+
+4.1.1.2: See events/offers for the FL3 & select (need shortcut for this too on home/dash)
+
+>> 1) Select an ongoing game 2) Select upcoming event like musicals/boozegames 3) Offer a drink (see all drinks)
+
+4.1.1.2.1: Select an ongoing game
+a) Show all game options to play & kind (single/multi player) and click to participate, Upon clicking, a popup to confirm to share basic profile & change status to confirmation pending etc (@@ need to track via Admin/FL3 module, to wait for opposite players to confirm and once done, send confirmation to all)
+b) Once confirmed, show congratulations message, game status (starting countdown) or/and clickable opponents profile IDs (what if more male players than female????). 
+>> 1) Opponent(s)
+c) Proceed with the game & once complete, show status on screen. Also must show on WhatsOn home screen
+d) Allow to congratulate, sympathize, wish to the opponent and provide option to send emoji & chat. Chat request is only active for 20 minutes, show timer to both requestor and receiver??? (@@ track time in FL3/Admin module to allow extension in time etc or leave automated entirely?)
+Show emoji/chat request on opponent's whatson/chat popup. Once confirmed to chat, open extended profile to each other on click on PROFILE ID.
+>> 2) Extended profile
+e) Give option to IGNORE chat request and if clicked, take to 4.1.1.2.1
+f) New chat (4.4.1) screen opens
+
+4.1.1.2.1.1: Opponent(s)
+Go to 4.4.2.1
+
+4.1.1.2.1.1: Extended profile:
+Show extended profile (how to stop showing both basic & extended profile e.g. after no interaction for 10 days?
+
+4.1.1.2.2: Goto ??????
+
+4.1.1.2.3: Goto
+
+Q:
+Is there an RRS policy for all data retention? May need to quote it in T&C/privacy section
+Need to enable drink offer via chat screen too??
+How long can people retain basic/extended profile view access? Need to limit it 10 days etc?
+Too many clicks?????? Need 3 clicks to reach anywhere in app so spread out the options especially frequently used screens need to be on top pics or on dash
+How to remove access to both basic & extended profile after 10 days? Need timestamped entry of relation between individuals
+how to manage multiplayer game - randon opposite sex assignment? all boys v/s all girls?
+Need source code for entire platform:
+Offer drink page?
+Would all FL3 take the screen, as they need to pay for it - Rajesh is confident need a survey**? Maybe do it as phase 2?
+If they already have a screen, would they even take it? Is there a way to use their own screen to support BS?
+Screen vendor??
+Wouldnt FL3 need broadband connectivity to run the app?
+Can we let people play remotely but make them come to FL3 for meetup?
+share summary for gaming input from IT minister son in law + patent + screen vendor - Share with Rajesh
+
+
+Input from IT minister 's SIL on 1) Gaming integration 2)patent of the app  3)screen vendor
+
+1) Gaming integration:
+We are looking to develop a social networking app to allow people from local area with shared interests to play games on the app and connect with each other to chat etc.
+Available games should be shown on app to choose and once chosen, gamers basic profile will be visible to other players when they opt for the game e.g. age, sex, location, height, self-description etc.
+Once game is over, allow players to congratulate or sympathize via emojis and open option to chat with each other. Once someone accepts to chat, both their extended profiles are opened to each other to view interests, recent events, photo, alma mater, hometown/state, languages known, profession, religion??
+- How feasible it is to integrate games in the app? Can existing gaming platforms be linked to allow playing games and then   results to be shown into our app?
+- What kind of infrastructure will be needed for realtime chat and how long it may take to develop?
+- Are there any existing examples/referwences that provide similar features?
+- How feasible will it be to connect the app to a display unit, just to share basic gaming info like ID, game status,   game result etc on the screen?
+- An idea of how much cost it would take?
+- Will it be possible to design & use our own games maybe as a future phase 2 launch? How easy/hard?
+- Any particular KYC or privacy/security aspects to be aware of while offering such platform?
+
+Patent:
+- Can we patent the applicaiton;'s concept & design without a hardware?
+- What models of software patents are available in India e.g. license based or time based?
+- Can we have just one patent to use across India or need regional patents?
+- What are the most experienced loopholes in the patent, that allow hacker or competitors to copy it?
+- How long it might take to get a patent of this app?
+- Is there a way to find if there is an existing patent like this?
+
+Display vendor: Now this has to be asked discreetly, as why do we need a FL3 diplay for a gaming app?
+- To display mobile app gaming status on screen, what kind of screen and media card is needed?
+- Are there existing vendors who can arrange for it?
+- What is a rough estimate of setting up such a display from scratch and what other expenses may be related to it e.g.   wifi, firmware upgrades?

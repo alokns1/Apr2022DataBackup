@@ -1,0 +1,22 @@
+Native:
+ - cost 1.3
+cons:
+	- separate coding by OS
+	- Mobile resources can be used e.g. gallery, nfc
+	- API based, therefore faster
+	- Everything is bound at the time of build, so download time is longer and takes more space. but usage time is lower
+	- Enhancements is better as has all support & all APIs are compatible
+
+Hybrid: Works at application layer
+
+	- Same code 
+Cons:
+	- Does not support all APIs for native and require external plugin
+	- Mobile res cant be used without plugin
+	- HTML5, CSS etc based
+	- Doesnt require lot of resources while downloading so quick to startup, but for usage it lags as stars pulling plugsings from net
+	- Enhancements need to recompile & deply for every change and may not even work seamlessly
+
+Any sample apps? Google it
+
+Font for app launch?

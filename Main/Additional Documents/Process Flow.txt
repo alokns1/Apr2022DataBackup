@@ -1,0 +1,370 @@
+Reference: facebook, whatsapp, playo, shaadi, tinder, drizly, BarEye, Amazon
+Customer Page: FL4
+Need a constant bar with options as Home/Dashboard, Back, Whatson (location service??), Search, Membership
+
+1. Download app from app store or play store or website.
+(2) Check safety status before opening? Which now happens on most android apps
+2. Homepage - Login with PROFILE ID, phone number or email or via other social n/w account e.g. facebook (+ forgot pasword + create account)
+3.a: Create account: Confirm you account creation process is starting. Hit Next
+	3.a.1
+	b. Ask for permissions e.g. contacts, camera, gallery, allow popups etc
+	c. Name, DoB, Sex(M/F/Custom-Ask if ok to show on profile), Mobile, email-optional, password, Confirm signining up with EULA - Done & GENERATE PROFILE ID
+	d. Welcome Screen - Tell about importance & need of KYC, request truthfulness and ask for - Aadhaar card, Address Proof, Hometown,state/Add a profile picture 		   (camera/gallery), Interests, anniversary, sexual orientation, interested in (men/women/any), enable location, add personality questionnaire, ask if ok to be messaged by others, allow   	   showing Photo????
+	e. Show scale in interest e.g. from 1-10, while giving example of what 1-10 mean????
+3b. Forgot password:
+	a. Trouble logging in - Login with email or Phone or PROFILE ID
+	b. Send activation link on email
+	c. Open email, click on activation link, done and re-route to app homepage
+
+3c. Login using other social account
+	a. Show that BS will receive all profile data from social media profile (link for terms of condition & privacy stuff in bottom)
+	b. Ask to continue as social account linked phone/email/iD, ask to key in and try looking for their social media profile
+	c. Login!
+
+4. Dashboard:
+Account Tier, points tally, favorites (add/search), FL3 in/near location, by drink type, FL3 with upcoming events, top5, featured FL3s, trending offers, collection based recommendations (categorically)- Links(>>) for 1) Search 2) Account 3) Notification 4) Chat 5) Profile 6) Whatson
+
+4.1. Search:
+FL3 based on interests, upcoming events, stag entry, beer choices etc. Make recommendations based on location, choices, search keys (imp)
+FL4 search? - Search location based search, view profile(not phone#), click to message??????
+
+4.1.1. View FL3: Location, FL3 type e.g. gastro, pub, brewery etc
+Something like dineout with option to redeem with points & receive/transfer points (when something isnt on online menu), allow to confirm participation in an event and maybe even pay through points for it, Float an event or get together on FL3 (or generally)????
+>> 1) Check-In 2) See See ongoing/upcoming events & games for the FL3 & select (need shortcut for this too on home/dash)
+
+4.1.1.1: Check-In: (@@) Need FL3 module to generate the code hourly else people might exploit it, plus it will boost footfall. Maybe generate this code everytime??
+Option 1: Allow to key-in the 6 digit code from the display, validate against FL3s code and confirm checkin. @@ Set checkin flag to yes in DB
+Option 2: Show code only on FL3 module and make people ask for it, where screen isnt available or is down.
+
+4.1.1.2: See events/offers for the FL3 & select (need shortcut for this too on home/dash)
+
+>> 1) Select an ongoing game 2) Select upcoming event like musicals/boozegames 3) Offer a drink (see all drinks)
+
+4.1.1.2.1: Select an ongoing game
+a) Show all game options to play & kind (single/multi player) and click to participate, Upon clicking, a popup to confirm to share basic profile & change status to confirmation pending etc (@@ need to track via Admin/FL3 module, to wait for opposite players to confirm and once done, send confirmation to all)
+b) Once confirmed, show congratulations message, game status (starting countdown) or/and clickable opponents profile IDs (what if more male players than female????). 
+>> 1) Opponent(s)
+c) Proceed with the game & once complete, show status on screen. Also must show on WhatsOn home screen
+d) Allow to congratulate, sympathize, wish to the opponent and provide option to send emoji & chat. Chat request is only active for 20 minutes, show timer to both requestor and receiver??? (@@ track time in FL3/Admin module to allow extension in time etc or leave automated entirely?)
+Show emoji/chat request on opponent's whatson/chat popup. Once confirmed to chat, open extended profile to each other on click on PROFILE ID.
+>> 2) Extended profile
+e) Give option to IGNORE chat request and if clicked, take to 4.1.1.2.1
+f) New chat (4.4.1) screen opens
+
+4.1.1.2.1.1: Opponent(s)
+Go to 4.4.2.1
+
+4.1.1.2.1.1: Extended profile:
+Show extended profile (how to stop showing both basic & extended profile e.g. after no interaction for 10 days?
+
+4.1.1.2.2: Show all events for the FL3 in next 30 days
+>> Select an event
+4.1.1.2.2.1: Show event details and signup option. On clicking signup, show popup to confirm and complete. Show the event under signed up events
+
+4.1.1.2.3: Goto 4.4.2
+
+4.2. Account: Show logo or some sort
+>> 1) Privacy 2) Security 3) Photo ID Proofs 4) Login 5) Hide, Reset, Delete Account
+
+4.3. Notification: Some logo
+Signed up events (send reminders too????), Offers, Expiring points, Set point limit, Membership expiring, Chat, Exception (FL3/FL4/Group), New FL3 in pincode, points credited/debited, events
+
+4.4 Chat: Conversations (Need algorithem not to share phone number - numeric or alpha or mix)
+Top-Search within available chats 1) All chats by last messaged date (click to open), swipe to delete message/chat (allow sharing pics/gifs etc???? - heavy app), select/search FL3 via chat????
+>> 1) Accept chat request if someone requested after a game 2) Search 3) New chat 4) Shortlisted members
+
+4.5: Profile
+
+4.4.1: Accept chat request if someone requested after a game
+Show requestor(s) with a link to accept. If clicked on requestor:
+>> 1) Show requestor basic profile 2) Click to Accept/Deny/Ignore(default)
+
+4.4.1.1: New page showing basic profile of requestor >> And link to extended profile?
+4.4.1.2: Accept/Deny/Ignore(default) - Return A/D status on requestor's screen + left/right swipe and timeout request on Ignore. >> 1) Accept 2) Deny 3) Ignore
+
+4.4.1.1.1:
+New page showing extended profile of requestor (& maybe how long it may remain visible & then to make request again??????). 
+If the requestor do not have approved access to extended profile, show a sorry message and back to basic profile at 4.4.1.1
+
+4.4.1.2.1: Accept - Show popup that your profile will be visible to requestor for x time and return confirmation back to requestor's to start chatting. -> 4.4
+4.4.1.2.2: Deny-Return confirmation back to requestor's that request is denied but try again on a different day (and reset the denial status after 10 days?) -> 4.4
+4.4.1.2.3: Ignore - No action, just let the timer expire (and somehow prompting user to chat with a different user or play another game, if available??????) -> 4.4
+
+4.4.2: Members near you - Open list of all members that have not blocked you & once clicked on, show option/link to >> 1) Chat 2) Block them 3) Search by PROFILE ID 4) Shortlist
+4.4.2.1: Goto 4.4.3
+4.4.2.2: Confirm to block PROFILE ID with message saying no contacts can be made or information can be viewed by either party until you unblock them
+(@@ Do not show this blocker's profile ID to blocked member on search and if clicked on gaming etc generated ID, just show member has temporarily withheld access to his/her profile??????)
+
+4.4.2.3: Search by PROFILE ID
+Give exact profile ID in search box and return member with option to >> 1) Chat 2) Block
+4.4.2.3.1: Jump to 4.4.3
+4.4.2.3.2: Goto 4.4.2.2
+
+4.4.2.4: Shortlist
+Flag them to be on shortlist
+
+4.4.4: Shortlisted members
+>> 1) Chat 2) Remove from shortlist
+
+4.4.4.1: Goto 4.4.3
+4.4.4.1: Ask confirm deletion of profile ID and popup to confirm. Once clicked, remove shortlist flag and go back to 4.4.4
+
+
+4.4.3: Open chat screen for the individual & >> 1) Link to offer drink 2) Transfer points next to the name
+chat away, similar to whatsapp
+4.4.3.1: To the PROFILE ID, offer drink (default points) at a location or just points 
+Allow to choose type of drink & standard point value e.g. 500 for pint, 800 for quart, 700 for single, 1200 for double etc and period to redeem - Then show points needed + transfer fees in points (or simply offer to transfer x points)
+>> Link to confirm offer
+
+4.4.3.1.1: 
+Show PROFILE ID, drink being offerred (optional for simple point transfers), points (including transfer fees), redeem by date and >> Link to complete transfer
+Once clicked, show confirmation & thank you message. Update receiver's point tally (and show a popup on receiver's phone that a drink has been received &respective points added in your points wallet - In wallet show redeem by date)
+
+4.4.3.2: Goto 4.4.3.1.1
+
+
+
+
+
+4.2.1: Privacy: 
+Button switch: 1) Read receipt 2) Status (Share with: Pals/Pals except../Selected) 
+>> 1) Privacy Settings 2) Profile
+
+4.2.2: Security
+>> 1) Payments 2) Password 3) Devices 4) Two factor auth?  5) Contact
+
+4.2.3: Photo ID Proofs: Aadhaar only?
+Show available photo IDs or >> ask to add some. Take click or upload photo and await verification (@@)
+
+4.2.4: Login
+Show current PROFILE ID
+Show/Edit : PROFILE ID/email/phone
+under it give freetext box to change user ID 
+
+Show current password as *** 
+under it give freetext box to change password (playo)
+
+4.2.5: Hide/Reset/Delete Account
+>> 1) Hide Account 2) Reset Account 3) Delete Account
+
+4.2.5.1: Hide Account
+Switch button to hide profile (@@)
+
+4.2.5.2: Reset Account (To change all settings)
+Switch button to hide profile (@@) & then take to 3.a.1 in edit mode ( Dont allow change in PROFILE ID, KYC details)
+
+4.2.5.3: Delete Account
+Ask to confirm, show what will they miss & offer to hide instead
+Button to confirm, once clicked popup for confirmation & ask to select reason or type and click on confirm account deletion - once done, deactivate at backend but dont delete until RRS and dont allow same KYC details to be registered again (@@)
+
+4.2.1.1: Privacy Settings
+Profile visible to Buttons: Share with 1) Pals, 2) Pals except.. 3) Selected
+More Buttons: Last login/DoB/Email/Hometown,state/About/Groups/Blocked/Phone/Photo/Location/Events/Chat/Read Reciepts/(whatever in KYC)/All
+
+4.2.1.2: Profile
+Jump to 4.5
+
+4.2.2.1: Payments
+Jump to 4.5.5
+
+4.2.2.2: Password 
+Jump to 4.2.4
+
+4.2.2.3: Devices 
+Show all devices where logged in, with option to deregister
+
+4.2.2.4: Two factor auth??????
+Switch button to Enable (or disable)
+Enter/change: PIN
+Enter/change: Email
+
+4.2.2.5: 5) Contact
+Depends if message or customer care????
+
+4.5. Profile: Show editable Status pic, Message, Name, Phone, About
+>> 1) Chat settings 2) Account 3) Points 4) Membership 5) Manage Payment Preference 6) Notification 7) Blocked users 8) Tell a friend 9) Help 
+10) Bar to show pals, activity by month count, points received/transferred 
+Allow reputation feedback??????
+
+4.5.1 Chat settings: 
+>> 1) Wallpaper - aloowchoosing wallpaper 2)save/archive chats 3) Archive/clear/delete
+4.5.2 Account: Take to 1.2
+4.5.3 Points: Like airlines, payback, loyalty??????  Show current balance, last 10(?) deposits with redeem date, encourage to top up if less than 100 etc., link to buy more points - How to increase point value??????
+Show balance of points and link to add more points (show how much more is needed to get to higher next tier etc????)
+>> 1) Add points 2) Redeem points 3) Gift/transfer points 4) See points valuation (to show how much its worth, somehow..)
+
+4.5.3.1: Add points
+Show current balance and under it option to select total points to buy e.g. radio buttons for 100, 500, 1000 points etc and freetext & show valuation in Rupees to pay:
+>> 1) Link to pay for points
+
+4.5.3.1.1:
+Show points being bought at the top and default/primary payment option and radio button for other modes. Ask to select one & click on >> Confirm payments:
+>> Confirm payment takes to payments page, complete it all and return success/failure results on screen.
+On success, update the points in self point wallet.
+
+4.5.3.2: Redeem points
+Show points deposited date, redeem by date and total
+>> 1) QR code 2) Pay-With-Points (PWP)
+4.5.3.2.1: QR code
+Show QR code to FL3 which they will scan, key in points for the given drink, show to confirm and complete (@@ need payment collection module by QR)
+Once done, in background, points to be transferred from FL4 to FL3 account and update both their accounts with a popup on app.
+Do we need to think about reverting point access to FL3, in case they want to? There will be a transfer fee. ??????
+4.5.3.2.2: Pay with points
+Ask key in points for the given drink, show to confirm and complete (@@ need payment collection module by QR)
+Once done, in background, points to be transferred from FL4 to FL3 account and update both their accounts with a popup on app.
+
+4.5.3.3: Gift/transfer points
+Goto 4.4.2
+
+4.5.3.4: See points valuation (to show how much its worth, somehow..)
+Show valuation based on type drinks with caveat that it will vary by FL3 but here is a rough idea of what it means e.g. 500 for pint, 800 for quart, 700 for single, 1200 for double etc.
+Click back to Goto 4.5.3
+
+4.5.4 Membership: Show membership tier, expiry date & link to upgrade + Show current benefits
+>> 1) Show upgrade options 2) Cancel membership (& redeem points?)
+4.5.5 Manage Payment Preference: 
+>> 1) Payment setup & options 2) Add a payment method
+4.5.6 Notification: Some logo
+Button Switches: Sound, Vibrate, Offers, Set point limit, Membership expiring, Chat, Group, Exception (FL3/FL4/Group), New FL3 in pincode, points credited/debited, event
+
+4.5.7 Blocked users: Show blocked users with date bloacked and with option to unblock
+4.5.8 Tell a friend: option to mail, sms, others - give default message (Hey, BS/OTS is amazing, try it out here for free - link)
+4.5.9 Help: 
+>> 1) FAQ 2) Contact 3) Support tickets 4) About 
+4.5.10: BAR
+Show pals, activities joined, points exchange, favorite, upcoming bdays/anniversary, top activities from pals blah blah????
+
+4.5.4.1: Membership upgrade screen
+Show benefits, cost after discount (IN POINTS) and >> link to pay against each option
+>> link to pay : Ask to choose between payment options and blah blah
+
+4.5.4.1.1: Select points to buy (100, 500, 100 etc and a numeric freetext) and show its cost in Rupees
+Select payment mode below:??????
+
+4.5.5.1: Payment setup & options (wallet)
+Show radio buttons to choose between:
+(Default radio button) Show details of current setup, expiry date, card used, used date, name - Amazon 
+Show all available wallets - like Amazon, paytm
+
+4.5.5.2: Add a payment method:
+>> Select Add CC/DC/UPI & then respective links to add in wallet upon confirmation
+
+4.5.9.1: FAQ
+Take to FAQ page with search option at top and all categories as links with sub topics - to be explored (Whatsapp)
+
+4.5.9.2: Contact
+Jump to 4.2.2.5
+
+4.5.9.3: Support tickets
+Allow describing an issue and raise a ticket - response within x hours/days??????
+
+4.5.9.4 About
+Details about the app
+
+4.6 WhatsOn (or BoozeShare?)
+See top offers & features & on selection, which will take to FL3 page 4.1.1
+Show last played game & opponents, result (& maybe option to go to another page to show last 10 games??)
+Show last 10 events attended? (@@ Event attendance flag for FL3)
+>> 1) Search for a FL3 (4.1)
+
+
+6. Chatting page (USP is anonymus conv): 
+Find other members (tiered), continue chats, read old chats, archive chat (Future - share stuff like pics, vids, docs?), allow free chat for first 200 words only??, create groups - like playo, offer drink - dont allow sharing phone numbers (setting under profile), starred messages
+
+
+
+8. Privacy - Allow other & self to chat, allow others to view profile, allow others to view photo,  allow others to view phone number, 
+
+
+
+
+OLD:
+
+4.4.3.1: To the PROFILE ID, offer drink at a location or just points or option to pick location(s)??????
+For the PROFILE ID Select FL3 to choose, show default as the one Checked-In to
+Browse drink and select to offer - show points needed + transfer fees in points (or simply offer to transfer x points)
+>> Link to confirm offer
+
+Auto-notifications:
+1. Points expiring
+2. Membership expiring
+3. New FL3 in location
+4. New offer or event in location
+5. Upcoming events where registered
+
+
+
+Merchant page:FL3
+
+1. Download app from app store or play store or website
+(2) Check safety status before opening? Which now happens on most android apps
+2. Homepage - Login with phone number or email or via other social n/w account e.g. facebook (+ forgot pasword + create account)
+3a. Create account: 
+	a. Confirm you account creation process is starting. Hit Next
+	b. Ask for permissions e.g. contacts, camera, gallery, allow popups etc
+	c. Name, DoB, Sex(M/F/Custom - Ask whether ok to show on profile), Mobile, emmail-optional, password, Confirm signining up with EULA - Done
+	d. Welcome Screen - Tell about importance & need of KYC, request truthfulness and ask for - ID proof, Address Proof, Add a profile picture (camera/gallery), 		   Interests, sexual orientation, interested in (men/women/any), enable location.
+3b. Forgot password:
+	a. Touble logging in - Login with email
+	b. Send activation link on email
+	c. Open email, click on activation link, done and re-routte to app homepage.
+
+3c. Login using other social account
+	a. Show that BS will receive all profile data from social media profile (link for terms of condition & privacy stuff in bottom)
+	b. Ask to continue as social account linked phone/email/iD, ask to key in and try looking for their social media profile
+	c. Login!
+
+4. Dashboard - Account Tier, points tally, upgrade & buy option, favorites (add/search), FL3 in/near location, by drink type, FL3 with upcoming events, top5, FEATURED RESTAURANTS, trending offers, collection based search (categorically)- Links for search, profile, account, notification, latest 3 chats
+5. Add keywords to auto search or manual customer search
+
+Profile & settings:
+Name, phone, location, all kyc stuff, max distance of location search, age range, show on other social media apps, share my feed, show me top picks in FL3, last active status, notification - email, push, BS ontacts, manage payments, help & support, app guidelines, safety tips, share profile, Legal - licenses, privacy ppolicy, terms of service, logout, Delete account!
+
+
+
+
+Q:
+Google hangout concept for closed groups?
+How to check same user is not registered with 2 different number especially if blacklisted? - or allow this?
+To support QR/PWP - FL3 needs to have the entire menu with point estimate on app??????
+Recon between Admin and FL4/FL3 points movements??????
+How to make points cool!
+How to show point value?
+What is tinder passport? 
+Payment gateway
+aadhaar link
+bankaccount, UPI validation
+chat archive increase cost?
+Need official logo
+Elements of KYC data
+	ID Proof:
+	Passport
+	Driving Licence
+	Voters' Identity Card
+	PAN Card
+	Aadhaar Card issued by UIDAI
+	NREGA Card
+	Letter from the National Population Register containing details of name and address
+	Address Proof:
+	Utility bill dated less than two months from any service provider (electricity, telephone, postpaid cell phone, gas pipeline, water bill). 
+	The address copy of an employer which is issued by the state government or central government departments, statutory or regulatory bodies, public sector 	companies, regular commercial banks, financial institutions and listed companies and leave and license agreements with these employers allocating official 	accommodation. 
+	Bank account statement received by mail or courier along with signature verification by the Banker 
+	Ration card 
+	Letter from employer, bank manager of scheduled commercial banks. 
+	A land receipt or municipal tax. 
+	Monthly pension payment orders which are issued for the retired employees after completion of their retirement age from ministries or public sector companies, 	if they contain the address.
+
+Future:
+Hook into Ola, Uber as well to get anywhere?
+
+Read more at: https://www.goodreturns.in/classroom/2016/01/what-is-kyc-what-are-the-documents-required-kyc/articlecontent-pf9460-422032.html
+
+Location cant be changed, register again for new venue – possibly allow same mobile over separate TIN?
+
+
+
+Points:
+Discount on points - Customer will exploit - Give only to member - Selling point to FL3? Sell events, boozegames, get together
+rating
+featured restaurant
+validate photo ID with profile photo - remove fake IDs
