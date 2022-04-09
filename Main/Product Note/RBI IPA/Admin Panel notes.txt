@@ -1,0 +1,26 @@
+Homepage
+- Dashboard - Analytics - Total Cust/Rest, deliveries (), points ( costing - Most of these will be by period with daily & YTD stats on home screen
+- Accounts - Access, roles, 
+- Customer management
+- Merchant management - Withdrawals, 
+- Points Home
+- Personnel Management (Owner/Superadmin/Admin/Normal/View/Restaurant/Courier)
+- Settings - App, Website, Language, SEO, Email, Theme, Voucher, Menu, Rating, Commission?
+- Delivery
+- Payments & invoices - Pay wall, payment & collection summary, billing, wallet, 
+- Notifications
+- Reports
+- ENP panel
+- Gaming & Chat
+- LiveStream - Events, Programs, Broadcast
+- Offers
+- Marketing - Adverts, flyers, promos, teasers, whatson, 
+- Corporate Partners
+- SOP - Hygiene
+- Service Request
+- Privacy
+- Security
+- Future panel 1
+- Future panel 2
+- Future panel 3
+- Future panel 4
