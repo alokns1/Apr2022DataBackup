@@ -1,0 +1,45 @@
+App feedback
+
+Upon first launch, 1st screen is fine in black background, rest should be white white. Need logo on each screen along with art
+Logo needs to be bit bigger in first screen
+Need to reflect discount, credit and no wallet theme in the following 3 screens - More art, less text to read please
+Some of the texts will need some amendments - We will fix as we go
+Can there be other ways to receive OTP like calling or authenticator apps, if phone network isn’t good?
+Can we give users option to choose city nationally? This needed for later analytics
+Among preferences, add pet friendly, child friendly, live performance/artist, Rooftop, brewery, Global cuisine, Lounge, Games 
+Can we have an option to select my favourite cuisine items e.g. Ice cream, pav bhaji, seekh kabab, biryani etc?
+About credit button, show the best offer available - e.g. pay in 3 monthly EMIs
+Dont use credit term - need to use a more friendly term e.g. pre-approved, DNPL, Pay Later
+Hi “Customer name” needed at top somewhere, to make it feel personal
+Need also to highlight 10% discount options somehow
+Also need to show higher discount for bank customers e.g. 12% for Cosmos customers
+Credit offer logo in the bottom must reflect WAIU branding instead of rupee/arrow signs
+On NBFC bullet selection screen, show what’s the main difference in their offerings /USP - Do it wherever its shown
+We don’t have credit wallet anymore, so need to remove that reference. WAIU wallet will be there as normal for showing cashback received by paying immediately
+Remove photo upload option
+While sorting for restaurant near me, also add alcohol (alongside veg/nveg), in cuisines selection add Korean, continental, 
+
+Restaurant overview tab:
+Need a ‘read more’ link towards the end of description text, to expand to show the entire text - it was there earlier but looks like missed out in new screens
+Cuisine needs header symbol - it was there earlier but looks like missed out in new screens
+Add both pay now and pay later buttons  with slight info about them, & take it to either payment gateway or lender option screen as clicked
+Add video option at top of merchant screen - Any way we can autoplay video when user click on restaurant to see details?
+For features & service - can be show icons and symbols instead of text?
+
+Restaurant Photos tab:
+Have Photo background as black
+In photo category like ambience, food, also show drinks, events, videos, lounge
+
+Restaurant Credit Offers menu:
+Name it only as “Top Offers”, instead of ‘Credit Offers’
+Top offers page needs to be more exciting - maybe add a quirky note above the options 
+Also maybe just make it a bullet list to select and apply button in bottom - lets not add additional click 
+On NBFC detail screen, limit text to about 7-10 seconds read  - Early salary example is to long although the table is good - Need to remove Rates from there
+Button should just say “Apply now’ or ‘Get pre approved now’
+
+General:
+Remove upcoming lending partners section, its sensitive info
+Waiu contact/support link is needed somewhere, along with T&C, policy details etc.
+Can we give user also the option to select personal preferences, with options as - Travel, music genres, games, extrovert/introvert, interested in events, movie, comedy, sports, hiking, architecture, countryside etc. This is mainly needed for future analytics
+On My Favourites scree , can we show similar restaurants (based on cuisine, location, or some of the above preferences/filter, values of which are mandatory to be captured from the merchants?)
+Upi ID - can’t remember what we agreed about it
