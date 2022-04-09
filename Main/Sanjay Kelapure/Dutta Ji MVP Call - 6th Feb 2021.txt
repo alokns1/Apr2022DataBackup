@@ -1,0 +1,36 @@
+regulatory compliances should be part of MVP e.g. aadhaar
+discretionary elements can be added as follow-up activity before launch e.g. reporting
+Drive behind info on tech framework and we can document that way
+Native app - no hosting as it will run in native form
+NoSQL DB e.g. ongo, firebase etc on cloud, non-trans web presence focussed on info, marketing. Trans to flow via app
+Google cloud, firebase DB, flutter as Dev env
+UI - Flutter 
+One code multi deployment
+Secure cloud hosting, we wont have PII/SDE data, only use tpp psp services that are certified already and estblished/licensed in India
+12th call with all - check
+
+
+project plan to show there is a big work remaining, chatur plan
+existing competition, pros, cons over competition, priorty chart, 
+cost implications, preparedness level, all angles
+7 market numbers, broadcast numbers
+2 matrices
+Governance, what all next as high hanging fruits
+Financial model
+
+
+Next:
+Consumer Research & Merchant Data Collection
+Merchant Acquisition
+Branding & Marketing
+AR/VR Interface, OTT-Multimedia
+NBFC/Bank Tie-ups
+PPI Licencing
+Infrastructure & Governance Setup
+Audit & Compliance
+Analytics
+Reward Points Integration
+Membership Tier
+Segmented & Bespoke Servicing
+Supply Chain Support
+Solution Uplifts & Enhancements
