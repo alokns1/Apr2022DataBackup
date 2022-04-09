@@ -1,0 +1,34 @@
+Geolocking/Geoaxis - ZoHo has it for application to be accessed from office only. Has a range as well may be able to capture
+
+IP restriction thorugh wifi - ignore request through other IP ranges
+Winners to be shown on the TV screen only - rewards to be in-person only
+Winenrs to get coins or gold - maybe give the rewards to offline but give better rewards to physically present customers
+
+Maybe make the acceptor a friend as its a user initiated action.
+Add checkbox to agree T&C for sharing info on chat, while offerring & accepting drinks
+
+Restrict the count of drinks to be offered in agiven period or by per person.
+
+Chat deviates from main feature an can be a barrier
+
+why share phone number?
+
+in game chat? to share game related or other info e.g. weekend plans etc.
+
+share deck with Raju
+set peak hours prices different than non-peak
+rate the coupons or cashback at lesser rate
+economy design in apps - experts or experienced people - product manager
+
+form factors for screen, mobile, tab, ipad etc
+
+Identify games having high social impacts
+card games, board games etc are ligh & cheaper too
+
+
+
+Q:
+Games options
+paytm how to integrate
+startacache meeting
+gokhale deck

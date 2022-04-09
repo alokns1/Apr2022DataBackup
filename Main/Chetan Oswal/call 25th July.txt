@@ -1,0 +1,56 @@
+In GST, these things are treated a vouchers in mobile linked accounts
+Voucher will carry the 3% GST amount at the time of issue of voucher - If person is aware what they will use it for
+No GST - if the persons doesnt know where they will use it for but the GST will be charged on the purchase.
+
+closed vouchers
+- redemeed in issuing entity only
+
+Open vouchers
+- can be redemeed anywhere e.g. sodexo owned partner merchants
+
+Semi closed
+- need to redeem at partner merchants but dont know what for e.g. food, drink or gift
+
+So we dont need to pay GST - its like tender we will 
+RBI master circular - prepaid payment instruments (PPI) - we need to take auth from RBI for issuing this kind of instrument
+Intention of RBI is that should be genuine and shoouldnt be black money.
+PPI master circular - if a capital requirement to start such a business - there wont be any GST
+
+FL3 will charge their regular GST - 
+
+1000 Rs - 1100 RsPoints - 
+5000 goods - GST300 - total 5300
+Customer to pay 1100 from BS wallet and 4200 from card
+
+Option 2:
+When I spend 2000 points, I will get 200
+
+Option 3:
+For part payment through BS - how will the bill be followed - 
+goods cost was 4000 and after including GST final billing is 4200 
+BS - 3000 & cash 1200 -> FL3/24K wallet 3000 points - Customer 300 points
+BS 3000 & buys 1200 points - 4200 - FL3 - Mobiquick wallet has promo - if paid through mobi wallet, customer gets 5% discount?
+
+We need to charge 18% on the service - ??? 
+4200+756SC then 18% GST on this value = 892
+to pay FL3 = 4200-892=3308
+
+4000+720SC + GST 850
+to pay FL3 = 4000-850=3150
+
+Chetan : 9890828242
+  
+
+FL3: 3308
+
+
+Swiggy - goes upto 27%
+Copyright - 
+Exclusivity agreement - Draft it in a way that we get a breathing time e.g. if dispute happens, they cant tie up with new parties for 6 months etc??
+
+We can get setoff on all expenses across offices 
+
+Q:
+Purchased points should only be made available to be used after 24 hours? Policy decision so think about to get committed customers.
+Think more about it.
+Maybe enable the cashback points after 24 hours to be used by customer?? 
